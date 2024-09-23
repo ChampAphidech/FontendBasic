@@ -21,11 +21,11 @@ body{
     border-radius: 5px;
 }
 .count{
-    font-size: 4 rem;
-    padding: 0 rem; 
+    font-size: 4rem;
+    padding: 0 1rem; 
     text-align: center;
 }
-input [type = "text"]{
+input[type = "text"]{
     display: block;
     font-size: 16px;
     border: 1px solid #dedede;
