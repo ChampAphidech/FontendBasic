@@ -46,3 +46,8 @@ button{
 .modal h1 , .modal p{
     margin-bottom: 17px;
 }
+
+.show{
+    opacity: 1;
+    pointer-events: auto;
+}
