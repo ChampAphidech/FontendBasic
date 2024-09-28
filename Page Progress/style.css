@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.container{
+    max-width: 900px;
+    margin:0 auto;
+    padding:0 20px;
+}
+header{
+    width: 100%;
+    background: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+nav{
+    height: 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2.5;
+    color: white;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    margin: 1.5rem;
+}
+li a{
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;/*remove underline*/
+}
+section{
+    padding: 5rem 0;
+
+}
+.box{
+    border: 1px solid gray;
+    padding: 2rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+}
+h2{
+    font-size: 2rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex >*{
+    margin: 1rem;
+}
+section.header{
+    width: 100%;
+    height: 90vh;
+    background: url(https://images.pexels.com/photos/6058410/pexels-photo-6058410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center no-repeat;/*no-repeat รูปจะไม่ซ้ำ*/
+    background-size: cover;
+
+}
+.scroll-indicator{
+    width: 100%;
+    height: 5px;
+    background: #92c092;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    visibility: hidden;
+}
+.progress{
+    width: 0%;
+    height: 4px;
+    background: orange;
+}
