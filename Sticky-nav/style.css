@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+body{
+    color: #222;
+    padding-bottom: 50px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background: #222;
+}
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav ul{
+    display: flex;
+    list-style-type:none ;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.nav a:hover{
+    color: red;
+}
+.cover{
+    background: url("image/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 20px;
+}
+.content h2{
+    font-size: 150%;
+    margin: 20px 0;
+}
+.content p{
+    color: #555;
+}
