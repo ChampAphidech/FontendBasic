@@ -2,7 +2,7 @@ const nav = document.querySelector(".nav")
 window.addEventListener("scroll",stickyNavbar)
 
 function stickyNavbar(){
-    if(window.screenY>nav.offsetHeight+150){
+    if(window.scrollY>nav.offsetHeight+50){
         nav.classList.add("active")
     }
     else{
