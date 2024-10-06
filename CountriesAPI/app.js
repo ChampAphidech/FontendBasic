@@ -14,18 +14,18 @@ const getCountries = async()=>{
 
 const createCard=(data)=>{
     const cardEl = document.createElement("div")
-    cardEl.classList.add("contry")
+    cardEl.classList.add("country")
     const contentHTML = `
         <div class="img-container">
-            <img src="${data.flag.png}" />
+            <img src="${data.flags.svg}" />
         </div>
         <div class="info">
             <h3 class="name">${data.name.common}</h3>
-            <small>Capital : <span>${data.capital}</span></small>
+            <p>Capital : <span>${data.capital}</span></p>
         </div>
     `
-    // cardEl.innerHTML=contentHTML
-    // container.appendChild(cardEl)
+    cardEl.innerHTML=contentHTML
+    container.appendChild(cardEl)
 } 
 
 getCountries()
