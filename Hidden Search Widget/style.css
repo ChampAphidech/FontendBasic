@@ -24,6 +24,8 @@ body{
     border: 0;
     height: 50px;
     width: 50px;
+    border-radius: 5px;
+    transition: width 0.3s ease;
 }
 .btn {
     background: #fff;
@@ -35,4 +37,17 @@ body{
     left: 0;
     height: 50px;
     width: 50px;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+.btn:focus,
+.input.focus{
+    outline: none;
+}
+.serch.active .input{
+    width: 250px;
+}
+.serch.active .btn{
+    transform: translateX(198px);
+    
 }
