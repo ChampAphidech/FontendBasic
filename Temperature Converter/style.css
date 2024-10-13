@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background: green;
+    background: rgb(77, 85, 77);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -33,4 +33,6 @@ input{
     color: white;
     outline: none;
     border: 1px solid white;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
