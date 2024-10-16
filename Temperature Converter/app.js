@@ -33,6 +33,14 @@ tempInput.forEach(input=>{
             //F to K
             let kelvin = (tempValue -32)/1.8 + 273 
             kelvinIn.value = kelvin.toFixed(2)
-        }
+        }else if(inputName==="kelvin"){
+            //K to C
+            let celcius = tempValue -273
+            celciusIn.value = celcius.toFixed(2)
+
+           //K to F
+           let fahrenheit = (tempValue -273)*1.8 + 32
+           fahrenheitIn.value = fahrenheit.toFixed(2)
+       }
     })
 })
