@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(77, 85, 77);
+    background: rgb(51, 62, 75);
     height: 100vh;
     display: flex;
     flex-direction: column;
