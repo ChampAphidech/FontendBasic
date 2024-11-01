@@ -76,3 +76,12 @@ body{
     border-bottom: 1px solid #b9b8b8;
     
 }
+.country-list li.hide{
+    display: none;
+    
+}
+
+/* .country-list .info h3{
+    background-color: yellow;
+    
+} */
