@@ -7,11 +7,11 @@ filter.addEventListener("input",(e)=> {
     console.log(search)
     listItem.forEach(item=>{
         if(item.innerHTML.toLowerCase().includes(search)){
-            item.classList.add("highlight")
+            // item.classList.add("highlight")
             item.classList.remove("hide")
         }else{
             item.classList.add("hide")
-            item.classList.remove("highlight")
+            // item.classList.remove("highlight")
         }
     })
 })
